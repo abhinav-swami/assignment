@@ -1,0 +1,13 @@
+nav{
+  font-size:  28px;  
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+}

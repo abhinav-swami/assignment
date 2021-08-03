@@ -1,0 +1,21 @@
+div{
+    
+    display: flex;
+    flex-direction: column;
+}
+table, th, td {
+   
+  border: 1px solid #551A8B;
+  border-collapse: collapse;
+  line-height: 145%;
+}
+th{
+    background-color: #551A8B;
+    color: white;
+}
+tbody tr:nth-of-type(2n){
+background-color: rgba(167, 167, 240, 0.76);
+}
+h1, table{
+  margin:1% 2.5% 1% 2.5%;
+}
